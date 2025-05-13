@@ -17,11 +17,11 @@ class Produto:
     def dados(self):
         print (f"Produto: {self.nome} o preço é R${self.preco:.2f} e a quantidade é: {self.quantidade_estoque}")
 
-nome=str(input("Qual o nome do produto:  "))
-qtd=int(input("Informe a quantidade de produtos:  "))
-valor=float(input("Informe o valor do produto:  "))
-vender=int(input("Insira a quantidade de produtos vendidos:  "))
-repor=int(input("Insira a quantidade de produtos que foram repostos:  "))
+nome=str(input("- Qual o nome do produto:  "))
+qtd=int(input("- Informe a quantidade de produtos:  "))
+valor=float(input("- Informe o valor do produto:  "))
+vender=int(input(" -Insira a quantidade de produtos vendidos:  "))
+repor=int(input("- Insira a quantidade de produtos que foram repostos:  "))
 
 p =Produto(nome,valor,qtd)
 p.vender(vender)
