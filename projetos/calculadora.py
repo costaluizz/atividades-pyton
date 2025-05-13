@@ -18,5 +18,5 @@ elif operacao == "3":
 elif operacao == "4":
     print(f"O resultado é {multiplicacao:,.2f}")
 else:
-    print("Escolha uma opção valida enter 1 a 4")
+    print("------Escolha uma opção valida enter 1 a 4-------")
    
